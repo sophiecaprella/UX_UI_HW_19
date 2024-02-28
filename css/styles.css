@@ -1,0 +1,161 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+/* NAV CSS */
+.navigation {
+    font-family: "Poppins";
+    background-color: #FFFFFF;
+    padding: 10px;
+    height: auto;
+    width: auto;
+    color: #272727;
+    align-items: right;
+}
+
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 50px;
+    font-weight: 500;
+    font-size:large; 
+}
+
+
+
+nav {
+    background-color: white;
+}
+
+
+.logo img {
+    height: 50px;
+    width: 100px;
+}
+
+/* HERO CSS */
+.heroImg {
+    font-family: "Poppins";
+    background-color: #F29CFF;
+    padding: 25px;
+    height: auto;
+    width: auto; 
+    color: #272727;
+}
+
+
+.hero-img img {
+    height: 500px;
+    padding: 25px;
+}
+
+.content img {
+    width: 100px;
+    height: 112px;
+}
+
+/* MY SKILLS CSS */
+#mySkills {
+    font-family: "Poppins";
+    background-color: #F6BAFF;
+    padding: 25px;
+    height: auto;
+    width: auto;
+    color: #272727;
+}
+
+.flexContainer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.skillCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30%;
+    font-family: "Poppins";
+}
+
+.user-research-header img {
+width: 39px;
+height: 52px;
+}
+.user-research-header {
+    display: inline;
+}
+
+.prototyping-header img{
+    width: 55px;
+    height: 50px;
+}
+
+.strategy-header img{
+    width: 50px;
+    height: 50px;
+}
+
+/* MY WORK CSS */
+#myWork-Grid {
+    display:grid;
+    grid-template-columns: 1fr, 1fr;
+    grid-template-areas: "case-study-1 case-study-2";
+    background-color: #F9D5FF;
+    height: 750px;
+    width: auto;
+    padding: 25px;
+    font-family: "Poppins";
+    color: #272727;
+}
+
+#case-study-1 {
+    grid-area: case-study-1;
+}
+#case-study-2 {
+    grid-area: case-study-2;
+}
+.case-study-picture-1 img {
+    height: 400px;
+    width: 184px;
+} 
+
+.case-study-picture-2 img {
+    height: 404px;
+    width: 237px;
+}
+
+.project-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #FFFFFF;
+    width: 400px;
+    height: auto;
+    padding: 40px;
+    justify-content: space-between;
+    border-radius: 80px;
+}
+
+.view-all-projects {
+    background-color: #F9D5FF;
+    height: auto;
+    width: auto;
+    font-family: "Poppins";
+}
+
+/* FOOTER CSS */
+footer {
+    background-color: #FFFFFF;
+    font-family: "Poppins";
+}
+footer ul {
+    display: inline-block;
+    vertical-align: top;
+}
+
+footer img {
+    height: 30px;
+    width: 30px;
+
+}
+
+
