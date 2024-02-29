@@ -29,8 +29,9 @@ nav {
 
 
 .logo img {
-    height: 50px;
+    height: 55px;
     width: 100px;
+    align-items: center;
 }
 
 .active {
@@ -156,10 +157,13 @@ height: 52px;
 footer {
     background-color: #FFFFFF;
     font-family: "Poppins";
+    text-align: center;
+
 }
 footer ul {
     display: inline-block;
     vertical-align: top;
+    
 }
 
 footer img {
